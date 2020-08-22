@@ -1,0 +1,58 @@
+#navbarToggler{
+    display: block;
+}
+
+.nav-item img{
+    width: 30px;
+}
+
+#header .logo a {
+    color: #964B00;
+}
+
+.get-started-btn{
+    background: #964B00;
+    color: #fff !important;
+}
+
+.get-started-btn:hover {
+    background: #c1913a;
+    color: #fff;
+}
+
+.counts .counters span,
+.about .content ul i{
+    color: #964B00;
+}
+
+.courses .course-content h4,
+#footer .social-links a{
+    background: #964B00;
+}
+#footer .social-links a:hover{
+    background: #c1913a;
+}
+
+.back-to-top i{
+    background: #964B00;
+}
+
+.back-to-top i:hover{
+    background: #c1913a;
+}
+
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #964B00;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+  }

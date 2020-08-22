@@ -1,0 +1,23 @@
+.logo-box, 
+.d-lg-inline-block
+{
+    padding-top: 20px;
+}
+
+#wrapper{
+    overflow: auto;
+}
+
+.logo-lg img,
+.logo-sm img{
+    margin-top: -10px;
+}
+
+#adminList_table_wrapper{
+    width: 100%;
+}
+
+.student_class_item{
+    display: none;
+}
+
